@@ -28,7 +28,7 @@ function taskGenerator(taskFn, daterange, taskName){
 
 var asyncTasks = [];
 var months = ['01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12'];
-
+// var months = ['01', '02', '03', '04', '05', '06'];
 for(let j = 0; j < months.length; j++){
     let from = `2017-${months[j]}-01 00:00`,
     to = `2017-${months[j]}-31 23:59`;

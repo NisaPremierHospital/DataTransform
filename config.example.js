@@ -6,7 +6,6 @@ module.exports = {
         database: 'nisa_main'
     },
     mongodb: {
-        dbnOld: 'mongodb://localhost:27017/nisa_test',
         dbn: 'mongodb://localhost:27017',
         host: 'localhost',
         // db: 'nisa_test',

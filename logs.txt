@@ -1,0 +1,868 @@
+executing /vagrant/datatransform/qLab.js
+Running /vagrant/datatransform/qLab.js Limit:  limit 0, 10000000 Range:  { from: '2017-01-01 00:00', to: '2017-01-31 23:59' }
+91758 ' Records Found' ' Copying to mongodb... Goodluck!'
+/vagrant/datatransform/qLab.js completed succesfuly 91758  records
+ction qLab returns true
+executing /vagrant/datatransform/qPatientDiagnosis.js
+Running /vagrant/datatransform/qPatientDiagnosis.js Limit:  limit 0, 10000000 Range:  { from: '2017-01-01 00:00', to: '2017-01-31 23:59' }
+3217 ' Records Found' ' Copying to mongodb... Goodluck!'
+/vagrant/datatransform/qPatientDiagnosis.js completed succesfuly 3217  records
+ction qPatientDiagnosis returns true
+executing /vagrant/datatransform/qPatientProcedureNote.js
+Running /vagrant/datatransform/qPatientProcedureNote.js Limit:  limit 0, 10000000 Range:  { from: '2017-01-01 00:00', to: '2017-01-31 23:59' }
+451 ' Records Found' ' Copying to mongodb... Goodluck!'
+/vagrant/datatransform/qPatientProcedureNote.js completed succesfuly 451  records
+ction qPatientProcedureNote returns true
+executing /vagrant/datatransform/qPatientRegimens.js
+Running /vagrant/datatransform/qPatientRegimens.js Limit:  limit 0, 10000000 Range:  { from: '2017-01-01 00:00', to: '2017-01-31 23:59' }
+19686 ' Records Found' ' Copying to mongodb... Goodluck!'
+/vagrant/datatransform/qPatientRegimens.js completed succesfuly 19686  records
+ction qPatientRegimens returns true
+executing /vagrant/datatransform/qPatientScan.js
+Running /vagrant/datatransform/qPatientScan.js Limit:  limit 0, 10000000 Range:  { from: '2017-01-01 00:00', to: '2017-01-31 23:59' }
+1363 ' Records Found' ' Copying to mongodb... Goodluck!'
+/vagrant/datatransform/qPatientScan.js completed succesfuly 1363  records
+ction qPatientScan returns true
+executing /vagrant/datatransform/qPatientVisitNotes.js
+Running /vagrant/datatransform/qPatientVisitNotes.js Limit:  limit 0, 10000000 Range:  { from: '2017-01-01 00:00', to: '2017-01-31 23:59' }
+28942 ' Records Found' ' Copying to mongodb... Goodluck!'
+/vagrant/datatransform/qPatientVisitNotes.js completed succesfuly 28942  records
+ction qPatientVisitNotes returns true
+executing /vagrant/datatransform/qProcedureNursingTask.js
+Running /vagrant/datatransform/qProcedureNursingTask.js Limit:  limit 0, 10000000 Range:  { from: '2017-01-01 00:00', to: '2017-01-31 23:59' }
+0 ' Records Found' ' Copying to mongodb... Goodluck!'
+Nothing to copy
+ction qProcedureNursingTask returns true
+executing /vagrant/datatransform/qVitalSigns.js
+Running /vagrant/datatransform/qVitalSigns.js Limit:  limit 0, 10000000 Range:  { from: '2017-01-01 00:00', to: '2017-01-31 23:59' }
+23117 ' Records Found' ' Copying to mongodb... Goodluck!'
+/vagrant/datatransform/qVitalSigns.js completed succesfuly 23117  records
+ction qVitalSigns returns true
+executing /vagrant/datatransform/qLab.js
+Running /vagrant/datatransform/qLab.js Limit:  limit 0, 10000000 Range:  { from: '2017-02-01 00:00', to: '2017-02-31 23:59' }
+115700 ' Records Found' ' Copying to mongodb... Goodluck!'
+/vagrant/datatransform/qLab.js completed succesfuly 115700  records
+ction qLab returns true
+executing /vagrant/datatransform/qPatientDiagnosis.js
+Running /vagrant/datatransform/qPatientDiagnosis.js Limit:  limit 0, 10000000 Range:  { from: '2017-02-01 00:00', to: '2017-02-31 23:59' }
+4251 ' Records Found' ' Copying to mongodb... Goodluck!'
+/vagrant/datatransform/qPatientDiagnosis.js completed succesfuly 4251  records
+ction qPatientDiagnosis returns true
+executing /vagrant/datatransform/qPatientProcedureNote.js
+Running /vagrant/datatransform/qPatientProcedureNote.js Limit:  limit 0, 10000000 Range:  { from: '2017-02-01 00:00', to: '2017-02-31 23:59' }
+536 ' Records Found' ' Copying to mongodb... Goodluck!'
+/vagrant/datatransform/qPatientProcedureNote.js completed succesfuly 536  records
+ction qPatientProcedureNote returns true
+executing /vagrant/datatransform/qPatientRegimens.js
+Running /vagrant/datatransform/qPatientRegimens.js Limit:  limit 0, 10000000 Range:  { from: '2017-02-01 00:00', to: '2017-02-31 23:59' }
+24954 ' Records Found' ' Copying to mongodb... Goodluck!'
+/vagrant/datatransform/qPatientRegimens.js completed succesfuly 24954  records
+ction qPatientRegimens returns true
+executing /vagrant/datatransform/qPatientScan.js
+Running /vagrant/datatransform/qPatientScan.js Limit:  limit 0, 10000000 Range:  { from: '2017-02-01 00:00', to: '2017-02-31 23:59' }
+1319 ' Records Found' ' Copying to mongodb... Goodluck!'
+/vagrant/datatransform/qPatientScan.js completed succesfuly 1319  records
+ction qPatientScan returns true
+executing /vagrant/datatransform/qPatientVisitNotes.js
+Running /vagrant/datatransform/qPatientVisitNotes.js Limit:  limit 0, 10000000 Range:  { from: '2017-02-01 00:00', to: '2017-02-31 23:59' }
+35392 ' Records Found' ' Copying to mongodb... Goodluck!'
+/vagrant/datatransform/qPatientVisitNotes.js completed succesfuly 35392  records
+ction qPatientVisitNotes returns true
+executing /vagrant/datatransform/qProcedureNursingTask.js
+Running /vagrant/datatransform/qProcedureNursingTask.js Limit:  limit 0, 10000000 Range:  { from: '2017-02-01 00:00', to: '2017-02-31 23:59' }
+734 ' Records Found' ' Copying to mongodb... Goodluck!'
+/vagrant/datatransform/qProcedureNursingTask.js completed succesfuly 734  records
+ction qProcedureNursingTask returns true
+executing /vagrant/datatransform/qVitalSigns.js
+Running /vagrant/datatransform/qVitalSigns.js Limit:  limit 0, 10000000 Range:  { from: '2017-02-01 00:00', to: '2017-02-31 23:59' }
+30558 ' Records Found' ' Copying to mongodb... Goodluck!'
+/vagrant/datatransform/qVitalSigns.js completed succesfuly 30558  records
+ction qVitalSigns returns true
+executing /vagrant/datatransform/qLab.js
+Running /vagrant/datatransform/qLab.js Limit:  limit 0, 10000000 Range:  { from: '2017-03-01 00:00', to: '2017-03-31 23:59' }
+119335 ' Records Found' ' Copying to mongodb... Goodluck!'
+/vagrant/datatransform/qLab.js completed succesfuly 119335  records
+ction qLab returns true
+executing /vagrant/datatransform/qPatientDiagnosis.js
+Running /vagrant/datatransform/qPatientDiagnosis.js Limit:  limit 0, 10000000 Range:  { from: '2017-03-01 00:00', to: '2017-03-31 23:59' }
+5591 ' Records Found' ' Copying to mongodb... Goodluck!'
+/vagrant/datatransform/qPatientDiagnosis.js completed succesfuly 5591  records
+ction qPatientDiagnosis returns true
+executing /vagrant/datatransform/qPatientProcedureNote.js
+Running /vagrant/datatransform/qPatientProcedureNote.js Limit:  limit 0, 10000000 Range:  { from: '2017-03-01 00:00', to: '2017-03-31 23:59' }
+604 ' Records Found' ' Copying to mongodb... Goodluck!'
+/vagrant/datatransform/qPatientProcedureNote.js completed succesfuly 604  records
+ction qPatientProcedureNote returns true
+executing /vagrant/datatransform/qPatientRegimens.js
+Running /vagrant/datatransform/qPatientRegimens.js Limit:  limit 0, 10000000 Range:  { from: '2017-03-01 00:00', to: '2017-03-31 23:59' }
+23018 ' Records Found' ' Copying to mongodb... Goodluck!'
+/vagrant/datatransform/qPatientRegimens.js completed succesfuly 23018  records
+ction qPatientRegimens returns true
+executing /vagrant/datatransform/qPatientScan.js
+Running /vagrant/datatransform/qPatientScan.js Limit:  limit 0, 10000000 Range:  { from: '2017-03-01 00:00', to: '2017-03-31 23:59' }
+1529 ' Records Found' ' Copying to mongodb... Goodluck!'
+/vagrant/datatransform/qPatientScan.js completed succesfuly 1529  records
+ction qPatientScan returns true
+executing /vagrant/datatransform/qPatientVisitNotes.js
+Running /vagrant/datatransform/qPatientVisitNotes.js Limit:  limit 0, 10000000 Range:  { from: '2017-03-01 00:00', to: '2017-03-31 23:59' }
+37742 ' Records Found' ' Copying to mongodb... Goodluck!'
+/vagrant/datatransform/qPatientVisitNotes.js completed succesfuly 37742  records
+ction qPatientVisitNotes returns true
+executing /vagrant/datatransform/qProcedureNursingTask.js
+Running /vagrant/datatransform/qProcedureNursingTask.js Limit:  limit 0, 10000000 Range:  { from: '2017-03-01 00:00', to: '2017-03-31 23:59' }
+335 ' Records Found' ' Copying to mongodb... Goodluck!'
+/vagrant/datatransform/qProcedureNursingTask.js completed succesfuly 335  records
+ction qProcedureNursingTask returns true
+executing /vagrant/datatransform/qVitalSigns.js
+Running /vagrant/datatransform/qVitalSigns.js Limit:  limit 0, 10000000 Range:  { from: '2017-03-01 00:00', to: '2017-03-31 23:59' }
+32227 ' Records Found' ' Copying to mongodb... Goodluck!'
+/vagrant/datatransform/qVitalSigns.js completed succesfuly 32227  records
+ction qVitalSigns returns true
+executing /vagrant/datatransform/qLab.js
+Running /vagrant/datatransform/qLab.js Limit:  limit 0, 10000000 Range:  { from: '2017-04-01 00:00', to: '2017-04-31 23:59' }
+97409 ' Records Found' ' Copying to mongodb... Goodluck!'
+/vagrant/datatransform/qLab.js completed succesfuly 97409  records
+ction qLab returns true
+executing /vagrant/datatransform/qPatientDiagnosis.js
+Running /vagrant/datatransform/qPatientDiagnosis.js Limit:  limit 0, 10000000 Range:  { from: '2017-04-01 00:00', to: '2017-04-31 23:59' }
+5688 ' Records Found' ' Copying to mongodb... Goodluck!'
+/vagrant/datatransform/qPatientDiagnosis.js completed succesfuly 5688  records
+ction qPatientDiagnosis returns true
+executing /vagrant/datatransform/qPatientProcedureNote.js
+Running /vagrant/datatransform/qPatientProcedureNote.js Limit:  limit 0, 10000000 Range:  { from: '2017-04-01 00:00', to: '2017-04-31 23:59' }
+700 ' Records Found' ' Copying to mongodb... Goodluck!'
+/vagrant/datatransform/qPatientProcedureNote.js completed succesfuly 700  records
+ction qPatientProcedureNote returns true
+executing /vagrant/datatransform/qPatientRegimens.js
+Running /vagrant/datatransform/qPatientRegimens.js Limit:  limit 0, 10000000 Range:  { from: '2017-04-01 00:00', to: '2017-04-31 23:59' }
+18902 ' Records Found' ' Copying to mongodb... Goodluck!'
+/vagrant/datatransform/qPatientRegimens.js completed succesfuly 18902  records
+ction qPatientRegimens returns true
+executing /vagrant/datatransform/qPatientScan.js
+Running /vagrant/datatransform/qPatientScan.js Limit:  limit 0, 10000000 Range:  { from: '2017-04-01 00:00', to: '2017-04-31 23:59' }
+1304 ' Records Found' ' Copying to mongodb... Goodluck!'
+/vagrant/datatransform/qPatientScan.js completed succesfuly 1304  records
+ction qPatientScan returns true
+executing /vagrant/datatransform/qPatientVisitNotes.js
+Running /vagrant/datatransform/qPatientVisitNotes.js Limit:  limit 0, 10000000 Range:  { from: '2017-04-01 00:00', to: '2017-04-31 23:59' }
+34224 ' Records Found' ' Copying to mongodb... Goodluck!'
+/vagrant/datatransform/qPatientVisitNotes.js completed succesfuly 34224  records
+ction qPatientVisitNotes returns true
+executing /vagrant/datatransform/qProcedureNursingTask.js
+Running /vagrant/datatransform/qProcedureNursingTask.js Limit:  limit 0, 10000000 Range:  { from: '2017-04-01 00:00', to: '2017-04-31 23:59' }
+166 ' Records Found' ' Copying to mongodb... Goodluck!'
+/vagrant/datatransform/qProcedureNursingTask.js completed succesfuly 166  records
+ction qProcedureNursingTask returns true
+executing /vagrant/datatransform/qVitalSigns.js
+Running /vagrant/datatransform/qVitalSigns.js Limit:  limit 0, 10000000 Range:  { from: '2017-04-01 00:00', to: '2017-04-31 23:59' }
+27755 ' Records Found' ' Copying to mongodb... Goodluck!'
+/vagrant/datatransform/qVitalSigns.js completed succesfuly 27755  records
+ction qVitalSigns returns true
+executing /vagrant/datatransform/qLab.js
+Running /vagrant/datatransform/qLab.js Limit:  limit 0, 10000000 Range:  { from: '2017-05-01 00:00', to: '2017-05-31 23:59' }
+115338 ' Records Found' ' Copying to mongodb... Goodluck!'
+/vagrant/datatransform/qLab.js completed succesfuly 115338  records
+ction qLab returns true
+executing /vagrant/datatransform/qPatientDiagnosis.js
+Running /vagrant/datatransform/qPatientDiagnosis.js Limit:  limit 0, 10000000 Range:  { from: '2017-05-01 00:00', to: '2017-05-31 23:59' }
+10592 ' Records Found' ' Copying to mongodb... Goodluck!'
+/vagrant/datatransform/qPatientDiagnosis.js completed succesfuly 10592  records
+ction qPatientDiagnosis returns true
+executing /vagrant/datatransform/qPatientProcedureNote.js
+Running /vagrant/datatransform/qPatientProcedureNote.js Limit:  limit 0, 10000000 Range:  { from: '2017-05-01 00:00', to: '2017-05-31 23:59' }
+723 ' Records Found' ' Copying to mongodb... Goodluck!'
+/vagrant/datatransform/qPatientProcedureNote.js completed succesfuly 723  records
+ction qPatientProcedureNote returns true
+executing /vagrant/datatransform/qPatientRegimens.js
+Running /vagrant/datatransform/qPatientRegimens.js Limit:  limit 0, 10000000 Range:  { from: '2017-05-01 00:00', to: '2017-05-31 23:59' }
+23193 ' Records Found' ' Copying to mongodb... Goodluck!'
+/vagrant/datatransform/qPatientRegimens.js completed succesfuly 23193  records
+ction qPatientRegimens returns true
+executing /vagrant/datatransform/qPatientScan.js
+Running /vagrant/datatransform/qPatientScan.js Limit:  limit 0, 10000000 Range:  { from: '2017-05-01 00:00', to: '2017-05-31 23:59' }
+1517 ' Records Found' ' Copying to mongodb... Goodluck!'
+/vagrant/datatransform/qPatientScan.js completed succesfuly 1517  records
+ction qPatientScan returns true
+executing /vagrant/datatransform/qPatientVisitNotes.js
+Running /vagrant/datatransform/qPatientVisitNotes.js Limit:  limit 0, 10000000 Range:  { from: '2017-05-01 00:00', to: '2017-05-31 23:59' }
+59727 ' Records Found' ' Copying to mongodb... Goodluck!'
+/vagrant/datatransform/qPatientVisitNotes.js completed succesfuly 59727  records
+ction qPatientVisitNotes returns true
+executing /vagrant/datatransform/qProcedureNursingTask.js
+Running /vagrant/datatransform/qProcedureNursingTask.js Limit:  limit 0, 10000000 Range:  { from: '2017-05-01 00:00', to: '2017-05-31 23:59' }
+9 ' Records Found' ' Copying to mongodb... Goodluck!'
+/vagrant/datatransform/qProcedureNursingTask.js completed succesfuly 9  records
+ction qProcedureNursingTask returns true
+executing /vagrant/datatransform/qVitalSigns.js
+Running /vagrant/datatransform/qVitalSigns.js Limit:  limit 0, 10000000 Range:  { from: '2017-05-01 00:00', to: '2017-05-31 23:59' }
+34633 ' Records Found' ' Copying to mongodb... Goodluck!'
+/vagrant/datatransform/qVitalSigns.js completed succesfuly 34633  records
+ction qVitalSigns returns true
+executing /vagrant/datatransform/qLab.js
+Running /vagrant/datatransform/qLab.js Limit:  limit 0, 10000000 Range:  { from: '2017-06-01 00:00', to: '2017-06-31 23:59' }
+116032 ' Records Found' ' Copying to mongodb... Goodluck!'
+/vagrant/datatransform/qLab.js completed succesfuly 116032  records
+ction qLab returns true
+executing /vagrant/datatransform/qPatientDiagnosis.js
+Running /vagrant/datatransform/qPatientDiagnosis.js Limit:  limit 0, 10000000 Range:  { from: '2017-06-01 00:00', to: '2017-06-31 23:59' }
+8622 ' Records Found' ' Copying to mongodb... Goodluck!'
+/vagrant/datatransform/qPatientDiagnosis.js completed succesfuly 8622  records
+ction qPatientDiagnosis returns true
+executing /vagrant/datatransform/qPatientProcedureNote.js
+Running /vagrant/datatransform/qPatientProcedureNote.js Limit:  limit 0, 10000000 Range:  { from: '2017-06-01 00:00', to: '2017-06-31 23:59' }
+586 ' Records Found' ' Copying to mongodb... Goodluck!'
+/vagrant/datatransform/qPatientProcedureNote.js completed succesfuly 586  records
+ction qPatientProcedureNote returns true
+executing /vagrant/datatransform/qPatientRegimens.js
+Running /vagrant/datatransform/qPatientRegimens.js Limit:  limit 0, 10000000 Range:  { from: '2017-06-01 00:00', to: '2017-06-31 23:59' }
+22052 ' Records Found' ' Copying to mongodb... Goodluck!'
+/vagrant/datatransform/qPatientRegimens.js completed succesfuly 22052  records
+ction qPatientRegimens returns true
+executing /vagrant/datatransform/qPatientScan.js
+Running /vagrant/datatransform/qPatientScan.js Limit:  limit 0, 10000000 Range:  { from: '2017-06-01 00:00', to: '2017-06-31 23:59' }
+1403 ' Records Found' ' Copying to mongodb... Goodluck!'
+/vagrant/datatransform/qPatientScan.js completed succesfuly 1403  records
+ction qPatientScan returns true
+executing /vagrant/datatransform/qPatientVisitNotes.js
+Running /vagrant/datatransform/qPatientVisitNotes.js Limit:  limit 0, 10000000 Range:  { from: '2017-06-01 00:00', to: '2017-06-31 23:59' }
+59202 ' Records Found' ' Copying to mongodb... Goodluck!'
+/vagrant/datatransform/qPatientVisitNotes.js completed succesfuly 59202  records
+ction qPatientVisitNotes returns true
+executing /vagrant/datatransform/qProcedureNursingTask.js
+Running /vagrant/datatransform/qProcedureNursingTask.js Limit:  limit 0, 10000000 Range:  { from: '2017-06-01 00:00', to: '2017-06-31 23:59' }
+2 ' Records Found' ' Copying to mongodb... Goodluck!'
+/vagrant/datatransform/qProcedureNursingTask.js completed succesfuly 2  records
+ction qProcedureNursingTask returns true
+executing /vagrant/datatransform/qVitalSigns.js
+Running /vagrant/datatransform/qVitalSigns.js Limit:  limit 0, 10000000 Range:  { from: '2017-06-01 00:00', to: '2017-06-31 23:59' }
+30701 ' Records Found' ' Copying to mongodb... Goodluck!'
+/vagrant/datatransform/qVitalSigns.js completed succesfuly 30701  records
+ction qVitalSigns returns true
+executing /vagrant/datatransform/qLab.js
+Running /vagrant/datatransform/qLab.js Limit:  limit 0, 10000000 Range:  { from: '2017-07-01 00:00', to: '2017-07-31 23:59' }
+133889 ' Records Found' ' Copying to mongodb... Goodluck!'
+/vagrant/datatransform/qLab.js completed succesfuly 133889  records
+ction qLab returns true
+executing /vagrant/datatransform/qPatientDiagnosis.js
+Running /vagrant/datatransform/qPatientDiagnosis.js Limit:  limit 0, 10000000 Range:  { from: '2017-07-01 00:00', to: '2017-07-31 23:59' }
+9360 ' Records Found' ' Copying to mongodb... Goodluck!'
+/vagrant/datatransform/qPatientDiagnosis.js completed succesfuly 9360  records
+ction qPatientDiagnosis returns true
+executing /vagrant/datatransform/qPatientProcedureNote.js
+Running /vagrant/datatransform/qPatientProcedureNote.js Limit:  limit 0, 10000000 Range:  { from: '2017-07-01 00:00', to: '2017-07-31 23:59' }
+643 ' Records Found' ' Copying to mongodb... Goodluck!'
+/vagrant/datatransform/qPatientProcedureNote.js completed succesfuly 643  records
+ction qPatientProcedureNote returns true
+executing /vagrant/datatransform/qPatientRegimens.js
+Running /vagrant/datatransform/qPatientRegimens.js Limit:  limit 0, 10000000 Range:  { from: '2017-07-01 00:00', to: '2017-07-31 23:59' }
+25857 ' Records Found' ' Copying to mongodb... Goodluck!'
+/vagrant/datatransform/qPatientRegimens.js completed succesfuly 25857  records
+ction qPatientRegimens returns true
+executing /vagrant/datatransform/qPatientScan.js
+Running /vagrant/datatransform/qPatientScan.js Limit:  limit 0, 10000000 Range:  { from: '2017-07-01 00:00', to: '2017-07-31 23:59' }
+1470 ' Records Found' ' Copying to mongodb... Goodluck!'
+/vagrant/datatransform/qPatientScan.js completed succesfuly 1470  records
+ction qPatientScan returns true
+executing /vagrant/datatransform/qPatientVisitNotes.js
+Running /vagrant/datatransform/qPatientVisitNotes.js Limit:  limit 0, 10000000 Range:  { from: '2017-07-01 00:00', to: '2017-07-31 23:59' }
+67854 ' Records Found' ' Copying to mongodb... Goodluck!'
+/vagrant/datatransform/qPatientVisitNotes.js completed succesfuly 67854  records
+ction qPatientVisitNotes returns true
+executing /vagrant/datatransform/qProcedureNursingTask.js
+Running /vagrant/datatransform/qProcedureNursingTask.js Limit:  limit 0, 10000000 Range:  { from: '2017-07-01 00:00', to: '2017-07-31 23:59' }
+0 ' Records Found' ' Copying to mongodb... Goodluck!'
+Nothing to copy
+ction qProcedureNursingTask returns true
+executing /vagrant/datatransform/qVitalSigns.js
+Running /vagrant/datatransform/qVitalSigns.js Limit:  limit 0, 10000000 Range:  { from: '2017-07-01 00:00', to: '2017-07-31 23:59' }
+33020 ' Records Found' ' Copying to mongodb... Goodluck!'
+/vagrant/datatransform/qVitalSigns.js completed succesfuly 33020  records
+ction qVitalSigns returns true
+executing /vagrant/datatransform/qLab.js
+Running /vagrant/datatransform/qLab.js Limit:  limit 0, 10000000 Range:  { from: '2017-08-01 00:00', to: '2017-08-31 23:59' }
+130345 ' Records Found' ' Copying to mongodb... Goodluck!'
+/vagrant/datatransform/qLab.js completed succesfuly 130345  records
+ction qLab returns true
+executing /vagrant/datatransform/qPatientDiagnosis.js
+Running /vagrant/datatransform/qPatientDiagnosis.js Limit:  limit 0, 10000000 Range:  { from: '2017-08-01 00:00', to: '2017-08-31 23:59' }
+9948 ' Records Found' ' Copying to mongodb... Goodluck!'
+/vagrant/datatransform/qPatientDiagnosis.js completed succesfuly 9948  records
+ction qPatientDiagnosis returns true
+executing /vagrant/datatransform/qPatientProcedureNote.js
+Running /vagrant/datatransform/qPatientProcedureNote.js Limit:  limit 0, 10000000 Range:  { from: '2017-08-01 00:00', to: '2017-08-31 23:59' }
+660 ' Records Found' ' Copying to mongodb... Goodluck!'
+/vagrant/datatransform/qPatientProcedureNote.js completed succesfuly 660  records
+ction qPatientProcedureNote returns true
+executing /vagrant/datatransform/qPatientRegimens.js
+Running /vagrant/datatransform/qPatientRegimens.js Limit:  limit 0, 10000000 Range:  { from: '2017-08-01 00:00', to: '2017-08-31 23:59' }
+25057 ' Records Found' ' Copying to mongodb... Goodluck!'
+/vagrant/datatransform/qPatientRegimens.js completed succesfuly 25057  records
+ction qPatientRegimens returns true
+executing /vagrant/datatransform/qPatientScan.js
+Running /vagrant/datatransform/qPatientScan.js Limit:  limit 0, 10000000 Range:  { from: '2017-08-01 00:00', to: '2017-08-31 23:59' }
+1566 ' Records Found' ' Copying to mongodb... Goodluck!'
+/vagrant/datatransform/qPatientScan.js completed succesfuly 1566  records
+ction qPatientScan returns true
+executing /vagrant/datatransform/qPatientVisitNotes.js
+Running /vagrant/datatransform/qPatientVisitNotes.js Limit:  limit 0, 10000000 Range:  { from: '2017-08-01 00:00', to: '2017-08-31 23:59' }
+68994 ' Records Found' ' Copying to mongodb... Goodluck!'
+/vagrant/datatransform/qPatientVisitNotes.js completed succesfuly 68994  records
+ction qPatientVisitNotes returns true
+executing /vagrant/datatransform/qProcedureNursingTask.js
+Running /vagrant/datatransform/qProcedureNursingTask.js Limit:  limit 0, 10000000 Range:  { from: '2017-08-01 00:00', to: '2017-08-31 23:59' }
+0 ' Records Found' ' Copying to mongodb... Goodluck!'
+Nothing to copy
+ction qProcedureNursingTask returns true
+executing /vagrant/datatransform/qVitalSigns.js
+Running /vagrant/datatransform/qVitalSigns.js Limit:  limit 0, 10000000 Range:  { from: '2017-08-01 00:00', to: '2017-08-31 23:59' }
+31134 ' Records Found' ' Copying to mongodb... Goodluck!'
+/vagrant/datatransform/qVitalSigns.js completed succesfuly 31134  records
+ction qVitalSigns returns true
+executing /vagrant/datatransform/qLab.js
+Running /vagrant/datatransform/qLab.js Limit:  limit 0, 10000000 Range:  { from: '2017-09-01 00:00', to: '2017-09-31 23:59' }
+138702 ' Records Found' ' Copying to mongodb... Goodluck!'
+/vagrant/datatransform/qLab.js completed succesfuly 138702  records
+ction qLab returns true
+executing /vagrant/datatransform/qPatientDiagnosis.js
+Running /vagrant/datatransform/qPatientDiagnosis.js Limit:  limit 0, 10000000 Range:  { from: '2017-09-01 00:00', to: '2017-09-31 23:59' }
+8866 ' Records Found' ' Copying to mongodb... Goodluck!'
+/vagrant/datatransform/qPatientDiagnosis.js completed succesfuly 8866  records
+ction qPatientDiagnosis returns true
+executing /vagrant/datatransform/qPatientProcedureNote.js
+Running /vagrant/datatransform/qPatientProcedureNote.js Limit:  limit 0, 10000000 Range:  { from: '2017-09-01 00:00', to: '2017-09-31 23:59' }
+625 ' Records Found' ' Copying to mongodb... Goodluck!'
+/vagrant/datatransform/qPatientProcedureNote.js completed succesfuly 625  records
+ction qPatientProcedureNote returns true
+executing /vagrant/datatransform/qPatientRegimens.js
+Running /vagrant/datatransform/qPatientRegimens.js Limit:  limit 0, 10000000 Range:  { from: '2017-09-01 00:00', to: '2017-09-31 23:59' }
+26130 ' Records Found' ' Copying to mongodb... Goodluck!'
+/vagrant/datatransform/qPatientRegimens.js completed succesfuly 26130  records
+ction qPatientRegimens returns true
+executing /vagrant/datatransform/qPatientScan.js
+Running /vagrant/datatransform/qPatientScan.js Limit:  limit 0, 10000000 Range:  { from: '2017-09-01 00:00', to: '2017-09-31 23:59' }
+1506 ' Records Found' ' Copying to mongodb... Goodluck!'
+/vagrant/datatransform/qPatientScan.js completed succesfuly 1506  records
+ction qPatientScan returns true
+executing /vagrant/datatransform/qPatientVisitNotes.js
+Running /vagrant/datatransform/qPatientVisitNotes.js Limit:  limit 0, 10000000 Range:  { from: '2017-09-01 00:00', to: '2017-09-31 23:59' }
+69715 ' Records Found' ' Copying to mongodb... Goodluck!'
+/vagrant/datatransform/qPatientVisitNotes.js completed succesfuly 69715  records
+ction qPatientVisitNotes returns true
+executing /vagrant/datatransform/qProcedureNursingTask.js
+Running /vagrant/datatransform/qProcedureNursingTask.js Limit:  limit 0, 10000000 Range:  { from: '2017-09-01 00:00', to: '2017-09-31 23:59' }
+0 ' Records Found' ' Copying to mongodb... Goodluck!'
+Nothing to copy
+ction qProcedureNursingTask returns true
+executing /vagrant/datatransform/qVitalSigns.js
+Running /vagrant/datatransform/qVitalSigns.js Limit:  limit 0, 10000000 Range:  { from: '2017-09-01 00:00', to: '2017-09-31 23:59' }
+31455 ' Records Found' ' Copying to mongodb... Goodluck!'
+/vagrant/datatransform/qVitalSigns.js completed succesfuly 31455  records
+ction qVitalSigns returns true
+executing /vagrant/datatransform/qLab.js
+Running /vagrant/datatransform/qLab.js Limit:  limit 0, 10000000 Range:  { from: '2017-10-01 00:00', to: '2017-10-31 23:59' }
+148975 ' Records Found' ' Copying to mongodb... Goodluck!'
+/vagrant/datatransform/qLab.js completed succesfuly 148975  records
+ction qLab returns true
+executing /vagrant/datatransform/qPatientDiagnosis.js
+Running /vagrant/datatransform/qPatientDiagnosis.js Limit:  limit 0, 10000000 Range:  { from: '2017-10-01 00:00', to: '2017-10-31 23:59' }
+10198 ' Records Found' ' Copying to mongodb... Goodluck!'
+/vagrant/datatransform/qPatientDiagnosis.js completed succesfuly 10198  records
+ction qPatientDiagnosis returns true
+executing /vagrant/datatransform/qPatientProcedureNote.js
+Running /vagrant/datatransform/qPatientProcedureNote.js Limit:  limit 0, 10000000 Range:  { from: '2017-10-01 00:00', to: '2017-10-31 23:59' }
+689 ' Records Found' ' Copying to mongodb... Goodluck!'
+/vagrant/datatransform/qPatientProcedureNote.js completed succesfuly 689  records
+ction qPatientProcedureNote returns true
+executing /vagrant/datatransform/qPatientRegimens.js
+Running /vagrant/datatransform/qPatientRegimens.js Limit:  limit 0, 10000000 Range:  { from: '2017-10-01 00:00', to: '2017-10-31 23:59' }
+27885 ' Records Found' ' Copying to mongodb... Goodluck!'
+/vagrant/datatransform/qPatientRegimens.js completed succesfuly 27885  records
+ction qPatientRegimens returns true
+executing /vagrant/datatransform/qPatientScan.js
+Running /vagrant/datatransform/qPatientScan.js Limit:  limit 0, 10000000 Range:  { from: '2017-10-01 00:00', to: '2017-10-31 23:59' }
+1564 ' Records Found' ' Copying to mongodb... Goodluck!'
+/vagrant/datatransform/qPatientScan.js completed succesfuly 1564  records
+ction qPatientScan returns true
+executing /vagrant/datatransform/qPatientVisitNotes.js
+Running /vagrant/datatransform/qPatientVisitNotes.js Limit:  limit 0, 10000000 Range:  { from: '2017-10-01 00:00', to: '2017-10-31 23:59' }
+78871 ' Records Found' ' Copying to mongodb... Goodluck!'
+/vagrant/datatransform/qPatientVisitNotes.js completed succesfuly 78871  records
+ction qPatientVisitNotes returns true
+executing /vagrant/datatransform/qProcedureNursingTask.js
+Running /vagrant/datatransform/qProcedureNursingTask.js Limit:  limit 0, 10000000 Range:  { from: '2017-10-01 00:00', to: '2017-10-31 23:59' }
+0 ' Records Found' ' Copying to mongodb... Goodluck!'
+Nothing to copy
+ction qProcedureNursingTask returns true
+executing /vagrant/datatransform/qVitalSigns.js
+Running /vagrant/datatransform/qVitalSigns.js Limit:  limit 0, 10000000 Range:  { from: '2017-10-01 00:00', to: '2017-10-31 23:59' }
+32268 ' Records Found' ' Copying to mongodb... Goodluck!'
+/vagrant/datatransform/qVitalSigns.js completed succesfuly 32268  records
+ction qVitalSigns returns true
+executing /vagrant/datatransform/qLab.js
+Running /vagrant/datatransform/qLab.js Limit:  limit 0, 10000000 Range:  { from: '2017-11-01 00:00', to: '2017-11-31 23:59' }
+120014 ' Records Found' ' Copying to mongodb... Goodluck!'
+/vagrant/datatransform/qLab.js completed succesfuly 120014  records
+ction qLab returns true
+executing /vagrant/datatransform/qPatientDiagnosis.js
+Running /vagrant/datatransform/qPatientDiagnosis.js Limit:  limit 0, 10000000 Range:  { from: '2017-11-01 00:00', to: '2017-11-31 23:59' }
+9409 ' Records Found' ' Copying to mongodb... Goodluck!'
+/vagrant/datatransform/qPatientDiagnosis.js completed succesfuly 9409  records
+ction qPatientDiagnosis returns true
+executing /vagrant/datatransform/qPatientProcedureNote.js
+Running /vagrant/datatransform/qPatientProcedureNote.js Limit:  limit 0, 10000000 Range:  { from: '2017-11-01 00:00', to: '2017-11-31 23:59' }
+727 ' Records Found' ' Copying to mongodb... Goodluck!'
+/vagrant/datatransform/qPatientProcedureNote.js completed succesfuly 727  records
+ction qPatientProcedureNote returns true
+executing /vagrant/datatransform/qPatientRegimens.js
+Running /vagrant/datatransform/qPatientRegimens.js Limit:  limit 0, 10000000 Range:  { from: '2017-11-01 00:00', to: '2017-11-31 23:59' }
+23262 ' Records Found' ' Copying to mongodb... Goodluck!'
+/vagrant/datatransform/qPatientRegimens.js completed succesfuly 23262  records
+ction qPatientRegimens returns true
+executing /vagrant/datatransform/qPatientScan.js
+Running /vagrant/datatransform/qPatientScan.js Limit:  limit 0, 10000000 Range:  { from: '2017-11-01 00:00', to: '2017-11-31 23:59' }
+1481 ' Records Found' ' Copying to mongodb... Goodluck!'
+/vagrant/datatransform/qPatientScan.js completed succesfuly 1481  records
+ction qPatientScan returns true
+executing /vagrant/datatransform/qPatientVisitNotes.js
+Running /vagrant/datatransform/qPatientVisitNotes.js Limit:  limit 0, 10000000 Range:  { from: '2017-11-01 00:00', to: '2017-11-31 23:59' }
+74491 ' Records Found' ' Copying to mongodb... Goodluck!'
+/vagrant/datatransform/qPatientVisitNotes.js completed succesfuly 74491  records
+ction qPatientVisitNotes returns true
+executing /vagrant/datatransform/qProcedureNursingTask.js
+Running /vagrant/datatransform/qProcedureNursingTask.js Limit:  limit 0, 10000000 Range:  { from: '2017-11-01 00:00', to: '2017-11-31 23:59' }
+26 ' Records Found' ' Copying to mongodb... Goodluck!'
+/vagrant/datatransform/qProcedureNursingTask.js completed succesfuly 26  records
+ction qProcedureNursingTask returns true
+executing /vagrant/datatransform/qVitalSigns.js
+Running /vagrant/datatransform/qVitalSigns.js Limit:  limit 0, 10000000 Range:  { from: '2017-11-01 00:00', to: '2017-11-31 23:59' }
+28466 ' Records Found' ' Copying to mongodb... Goodluck!'
+/vagrant/datatransform/qVitalSigns.js completed succesfuly 28466  records
+ction qVitalSigns returns true
+executing /vagrant/datatransform/qLab.js
+Running /vagrant/datatransform/qLab.js Limit:  limit 0, 10000000 Range:  { from: '2017-12-01 00:00', to: '2017-12-31 23:59' }
+111811 ' Records Found' ' Copying to mongodb... Goodluck!'
+/vagrant/datatransform/qLab.js completed succesfuly 111811  records
+ction qLab returns true
+executing /vagrant/datatransform/qPatientDiagnosis.js
+Running /vagrant/datatransform/qPatientDiagnosis.js Limit:  limit 0, 10000000 Range:  { from: '2017-12-01 00:00', to: '2017-12-31 23:59' }
+8790 ' Records Found' ' Copying to mongodb... Goodluck!'
+/vagrant/datatransform/qPatientDiagnosis.js completed succesfuly 8790  records
+ction qPatientDiagnosis returns true
+executing /vagrant/datatransform/qPatientProcedureNote.js
+Running /vagrant/datatransform/qPatientProcedureNote.js Limit:  limit 0, 10000000 Range:  { from: '2017-12-01 00:00', to: '2017-12-31 23:59' }
+544 ' Records Found' ' Copying to mongodb... Goodluck!'
+/vagrant/datatransform/qPatientProcedureNote.js completed succesfuly 544  records
+ction qPatientProcedureNote returns true
+executing /vagrant/datatransform/qPatientRegimens.js
+Running /vagrant/datatransform/qPatientRegimens.js Limit:  limit 0, 10000000 Range:  { from: '2017-12-01 00:00', to: '2017-12-31 23:59' }
+22658 ' Records Found' ' Copying to mongodb... Goodluck!'
+/vagrant/datatransform/qPatientRegimens.js completed succesfuly 22658  records
+ction qPatientRegimens returns true
+executing /vagrant/datatransform/qPatientScan.js
+Running /vagrant/datatransform/qPatientScan.js Limit:  limit 0, 10000000 Range:  { from: '2017-12-01 00:00', to: '2017-12-31 23:59' }
+1347 ' Records Found' ' Copying to mongodb... Goodluck!'
+/vagrant/datatransform/qPatientScan.js completed succesfuly 1347  records
+ction qPatientScan returns true
+executing /vagrant/datatransform/qPatientVisitNotes.js
+Running /vagrant/datatransform/qPatientVisitNotes.js Limit:  limit 0, 10000000 Range:  { from: '2017-12-01 00:00', to: '2017-12-31 23:59' }
+76980 ' Records Found' ' Copying to mongodb... Goodluck!'
+/vagrant/datatransform/qPatientVisitNotes.js completed succesfuly 76980  records
+ction qPatientVisitNotes returns true
+executing /vagrant/datatransform/qProcedureNursingTask.js
+Running /vagrant/datatransform/qProcedureNursingTask.js Limit:  limit 0, 10000000 Range:  { from: '2017-12-01 00:00', to: '2017-12-31 23:59' }
+1 ' Records Found' ' Copying to mongodb... Goodluck!'
+/vagrant/datatransform/qProcedureNursingTask.js completed succesfuly 1  records
+ction qProcedureNursingTask returns true
+executing /vagrant/datatransform/qVitalSigns.js
+Running /vagrant/datatransform/qVitalSigns.js Limit:  limit 0, 10000000 Range:  { from: '2017-12-01 00:00', to: '2017-12-31 23:59' }
+25681 ' Records Found' ' Copying to mongodb... Goodluck!'
+/vagrant/datatransform/qVitalSigns.js completed succesfuly 25681  records
+ction qVitalSigns returns true
+All 96 tasks complete { err: null } { result: 
+   [ true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true ] }
+
+
+     executing /vagrant/datatransform/qLab.js
+Running /vagrant/datatransform/qLab.js Limit:  limit 0, 10000000 Range:  { from: '2018-01-01 00:00', to: '2018-01-31 23:59' }
+135231 ' Records Found' ' Copying to mongodb... Goodluck!'
+/vagrant/datatransform/qLab.js completed succesfuly 135231  records
+ction qLab returns true
+executing /vagrant/datatransform/qPatientDiagnosis.js
+Running /vagrant/datatransform/qPatientDiagnosis.js Limit:  limit 0, 10000000 Range:  { from: '2018-01-01 00:00', to: '2018-01-31 23:59' }
+10778 ' Records Found' ' Copying to mongodb... Goodluck!'
+/vagrant/datatransform/qPatientDiagnosis.js completed succesfuly 10778  records
+ction qPatientDiagnosis returns true
+executing /vagrant/datatransform/qPatientProcedureNote.js
+Running /vagrant/datatransform/qPatientProcedureNote.js Limit:  limit 0, 10000000 Range:  { from: '2018-01-01 00:00', to: '2018-01-31 23:59' }
+676 ' Records Found' ' Copying to mongodb... Goodluck!'
+/vagrant/datatransform/qPatientProcedureNote.js completed succesfuly 676  records
+ction qPatientProcedureNote returns true
+executing /vagrant/datatransform/qPatientRegimens.js
+Running /vagrant/datatransform/qPatientRegimens.js Limit:  limit 0, 10000000 Range:  { from: '2018-01-01 00:00', to: '2018-01-31 23:59' }
+25817 ' Records Found' ' Copying to mongodb... Goodluck!'
+/vagrant/datatransform/qPatientRegimens.js completed succesfuly 25817  records
+ction qPatientRegimens returns true
+executing /vagrant/datatransform/qPatientScan.js
+Running /vagrant/datatransform/qPatientScan.js Limit:  limit 0, 10000000 Range:  { from: '2018-01-01 00:00', to: '2018-01-31 23:59' }
+1610 ' Records Found' ' Copying to mongodb... Goodluck!'
+/vagrant/datatransform/qPatientScan.js completed succesfuly 1610  records
+ction qPatientScan returns true
+executing /vagrant/datatransform/qPatientVisitNotes.js
+Running /vagrant/datatransform/qPatientVisitNotes.js Limit:  limit 0, 10000000 Range:  { from: '2018-01-01 00:00', to: '2018-01-31 23:59' }
+90533 ' Records Found' ' Copying to mongodb... Goodluck!'
+/vagrant/datatransform/qPatientVisitNotes.js completed succesfuly 90533  records
+ction qPatientVisitNotes returns true
+executing /vagrant/datatransform/qProcedureNursingTask.js
+Running /vagrant/datatransform/qProcedureNursingTask.js Limit:  limit 0, 10000000 Range:  { from: '2018-01-01 00:00', to: '2018-01-31 23:59' }
+0 ' Records Found' ' Copying to mongodb... Goodluck!'
+Nothing to copy
+ction qProcedureNursingTask returns true
+executing /vagrant/datatransform/qVitalSigns.js
+Running /vagrant/datatransform/qVitalSigns.js Limit:  limit 0, 10000000 Range:  { from: '2018-01-01 00:00', to: '2018-01-31 23:59' }
+29786 ' Records Found' ' Copying to mongodb... Goodluck!'
+/vagrant/datatransform/qVitalSigns.js completed succesfuly 29786  records
+ction qVitalSigns returns true
+executing /vagrant/datatransform/qLab.js
+Running /vagrant/datatransform/qLab.js Limit:  limit 0, 10000000 Range:  { from: '2018-02-01 00:00', to: '2018-02-31 23:59' }
+127971 ' Records Found' ' Copying to mongodb... Goodluck!'
+/vagrant/datatransform/qLab.js completed succesfuly 127971  records
+ction qLab returns true
+executing /vagrant/datatransform/qPatientDiagnosis.js
+Running /vagrant/datatransform/qPatientDiagnosis.js Limit:  limit 0, 10000000 Range:  { from: '2018-02-01 00:00', to: '2018-02-31 23:59' }
+9744 ' Records Found' ' Copying to mongodb... Goodluck!'
+/vagrant/datatransform/qPatientDiagnosis.js completed succesfuly 9744  records
+ction qPatientDiagnosis returns true
+executing /vagrant/datatransform/qPatientProcedureNote.js
+Running /vagrant/datatransform/qPatientProcedureNote.js Limit:  limit 0, 10000000 Range:  { from: '2018-02-01 00:00', to: '2018-02-31 23:59' }
+771 ' Records Found' ' Copying to mongodb... Goodluck!'
+/vagrant/datatransform/qPatientProcedureNote.js completed succesfuly 771  records
+ction qPatientProcedureNote returns true
+executing /vagrant/datatransform/qPatientRegimens.js
+Running /vagrant/datatransform/qPatientRegimens.js Limit:  limit 0, 10000000 Range:  { from: '2018-02-01 00:00', to: '2018-02-31 23:59' }
+25605 ' Records Found' ' Copying to mongodb... Goodluck!'
+/vagrant/datatransform/qPatientRegimens.js completed succesfuly 25605  records
+ction qPatientRegimens returns true
+executing /vagrant/datatransform/qPatientScan.js
+Running /vagrant/datatransform/qPatientScan.js Limit:  limit 0, 10000000 Range:  { from: '2018-02-01 00:00', to: '2018-02-31 23:59' }
+1610 ' Records Found' ' Copying to mongodb... Goodluck!'
+/vagrant/datatransform/qPatientScan.js completed succesfuly 1610  records
+ction qPatientScan returns true
+executing /vagrant/datatransform/qPatientVisitNotes.js
+Running /vagrant/datatransform/qPatientVisitNotes.js Limit:  limit 0, 10000000 Range:  { from: '2018-02-01 00:00', to: '2018-02-31 23:59' }
+87588 ' Records Found' ' Copying to mongodb... Goodluck!'
+/vagrant/datatransform/qPatientVisitNotes.js completed succesfuly 87588  records
+ction qPatientVisitNotes returns true
+executing /vagrant/datatransform/qProcedureNursingTask.js
+Running /vagrant/datatransform/qProcedureNursingTask.js Limit:  limit 0, 10000000 Range:  { from: '2018-02-01 00:00', to: '2018-02-31 23:59' }
+26 ' Records Found' ' Copying to mongodb... Goodluck!'
+/vagrant/datatransform/qProcedureNursingTask.js completed succesfuly 26  records
+ction qProcedureNursingTask returns true
+executing /vagrant/datatransform/qVitalSigns.js
+Running /vagrant/datatransform/qVitalSigns.js Limit:  limit 0, 10000000 Range:  { from: '2018-02-01 00:00', to: '2018-02-31 23:59' }
+28289 ' Records Found' ' Copying to mongodb... Goodluck!'
+/vagrant/datatransform/qVitalSigns.js completed succesfuly 28289  records
+ction qVitalSigns returns true
+executing /vagrant/datatransform/qLab.js
+Running /vagrant/datatransform/qLab.js Limit:  limit 0, 10000000 Range:  { from: '2018-03-01 00:00', to: '2018-03-31 23:59' }
+143070 ' Records Found' ' Copying to mongodb... Goodluck!'
+/vagrant/datatransform/qLab.js completed succesfuly 143070  records
+ction qLab returns true
+executing /vagrant/datatransform/qPatientDiagnosis.js
+Running /vagrant/datatransform/qPatientDiagnosis.js Limit:  limit 0, 10000000 Range:  { from: '2018-03-01 00:00', to: '2018-03-31 23:59' }
+9789 ' Records Found' ' Copying to mongodb... Goodluck!'
+/vagrant/datatransform/qPatientDiagnosis.js completed succesfuly 9789  records
+ction qPatientDiagnosis returns true
+executing /vagrant/datatransform/qPatientProcedureNote.js
+Running /vagrant/datatransform/qPatientProcedureNote.js Limit:  limit 0, 10000000 Range:  { from: '2018-03-01 00:00', to: '2018-03-31 23:59' }
+814 ' Records Found' ' Copying to mongodb... Goodluck!'
+/vagrant/datatransform/qPatientProcedureNote.js completed succesfuly 814  records
+ction qPatientProcedureNote returns true
+executing /vagrant/datatransform/qPatientRegimens.js
+Running /vagrant/datatransform/qPatientRegimens.js Limit:  limit 0, 10000000 Range:  { from: '2018-03-01 00:00', to: '2018-03-31 23:59' }
+26089 ' Records Found' ' Copying to mongodb... Goodluck!'
+/vagrant/datatransform/qPatientRegimens.js completed succesfuly 26089  records
+ction qPatientRegimens returns true
+executing /vagrant/datatransform/qPatientScan.js
+Running /vagrant/datatransform/qPatientScan.js Limit:  limit 0, 10000000 Range:  { from: '2018-03-01 00:00', to: '2018-03-31 23:59' }
+1752 ' Records Found' ' Copying to mongodb... Goodluck!'
+/vagrant/datatransform/qPatientScan.js completed succesfuly 1752  records
+ction qPatientScan returns true
+executing /vagrant/datatransform/qPatientVisitNotes.js
+Running /vagrant/datatransform/qPatientVisitNotes.js Limit:  limit 0, 10000000 Range:  { from: '2018-03-01 00:00', to: '2018-03-31 23:59' }
+96421 ' Records Found' ' Copying to mongodb... Goodluck!'
+/vagrant/datatransform/qPatientVisitNotes.js completed succesfuly 96421  records
+ction qPatientVisitNotes returns true
+executing /vagrant/datatransform/qProcedureNursingTask.js
+Running /vagrant/datatransform/qProcedureNursingTask.js Limit:  limit 0, 10000000 Range:  { from: '2018-03-01 00:00', to: '2018-03-31 23:59' }
+78 ' Records Found' ' Copying to mongodb... Goodluck!'
+/vagrant/datatransform/qProcedureNursingTask.js completed succesfuly 78  records
+ction qProcedureNursingTask returns true
+executing /vagrant/datatransform/qVitalSigns.js
+Running /vagrant/datatransform/qVitalSigns.js Limit:  limit 0, 10000000 Range:  { from: '2018-03-01 00:00', to: '2018-03-31 23:59' }
+31587 ' Records Found' ' Copying to mongodb... Goodluck!'
+/vagrant/datatransform/qVitalSigns.js completed succesfuly 31587  records
+ction qVitalSigns returns true
+executing /vagrant/datatransform/qLab.js
+Running /vagrant/datatransform/qLab.js Limit:  limit 0, 10000000 Range:  { from: '2018-04-01 00:00', to: '2018-04-31 23:59' }
+139467 ' Records Found' ' Copying to mongodb... Goodluck!'
+/vagrant/datatransform/qLab.js completed succesfuly 139467  records
+ction qLab returns true
+executing /vagrant/datatransform/qPatientDiagnosis.js
+Running /vagrant/datatransform/qPatientDiagnosis.js Limit:  limit 0, 10000000 Range:  { from: '2018-04-01 00:00', to: '2018-04-31 23:59' }
+8600 ' Records Found' ' Copying to mongodb... Goodluck!'
+/vagrant/datatransform/qPatientDiagnosis.js completed succesfuly 8600  records
+ction qPatientDiagnosis returns true
+executing /vagrant/datatransform/qPatientProcedureNote.js
+Running /vagrant/datatransform/qPatientProcedureNote.js Limit:  limit 0, 10000000 Range:  { from: '2018-04-01 00:00', to: '2018-04-31 23:59' }
+816 ' Records Found' ' Copying to mongodb... Goodluck!'
+/vagrant/datatransform/qPatientProcedureNote.js completed succesfuly 816  records
+ction qPatientProcedureNote returns true
+executing /vagrant/datatransform/qPatientRegimens.js
+Running /vagrant/datatransform/qPatientRegimens.js Limit:  limit 0, 10000000 Range:  { from: '2018-04-01 00:00', to: '2018-04-31 23:59' }
+22901 ' Records Found' ' Copying to mongodb... Goodluck!'
+/vagrant/datatransform/qPatientRegimens.js completed succesfuly 22901  records
+ction qPatientRegimens returns true
+executing /vagrant/datatransform/qPatientScan.js
+Running /vagrant/datatransform/qPatientScan.js Limit:  limit 0, 10000000 Range:  { from: '2018-04-01 00:00', to: '2018-04-31 23:59' }
+1743 ' Records Found' ' Copying to mongodb... Goodluck!'
+/vagrant/datatransform/qPatientScan.js completed succesfuly 1743  records
+ction qPatientScan returns true
+executing /vagrant/datatransform/qPatientVisitNotes.js
+Running /vagrant/datatransform/qPatientVisitNotes.js Limit:  limit 0, 10000000 Range:  { from: '2018-04-01 00:00', to: '2018-04-31 23:59' }
+85725 ' Records Found' ' Copying to mongodb... Goodluck!'
+/vagrant/datatransform/qPatientVisitNotes.js completed succesfuly 85725  records
+ction qPatientVisitNotes returns true
+executing /vagrant/datatransform/qProcedureNursingTask.js
+Running /vagrant/datatransform/qProcedureNursingTask.js Limit:  limit 0, 10000000 Range:  { from: '2018-04-01 00:00', to: '2018-04-31 23:59' }
+104 ' Records Found' ' Copying to mongodb... Goodluck!'
+/vagrant/datatransform/qProcedureNursingTask.js completed succesfuly 104  records
+ction qProcedureNursingTask returns true
+executing /vagrant/datatransform/qVitalSigns.js
+Running /vagrant/datatransform/qVitalSigns.js Limit:  limit 0, 10000000 Range:  { from: '2018-04-01 00:00', to: '2018-04-31 23:59' }
+32224 ' Records Found' ' Copying to mongodb... Goodluck!'
+/vagrant/datatransform/qVitalSigns.js completed succesfuly 32224  records
+ction qVitalSigns returns true
+executing /vagrant/datatransform/qLab.js
+Running /vagrant/datatransform/qLab.js Limit:  limit 0, 10000000 Range:  { from: '2018-05-01 00:00', to: '2018-05-31 23:59' }
+156409 ' Records Found' ' Copying to mongodb... Goodluck!'
+/vagrant/datatransform/qLab.js completed succesfuly 156409  records
+ction qLab returns true
+executing /vagrant/datatransform/qPatientDiagnosis.js
+Running /vagrant/datatransform/qPatientDiagnosis.js Limit:  limit 0, 10000000 Range:  { from: '2018-05-01 00:00', to: '2018-05-31 23:59' }
+9670 ' Records Found' ' Copying to mongodb... Goodluck!'
+/vagrant/datatransform/qPatientDiagnosis.js completed succesfuly 9670  records
+ction qPatientDiagnosis returns true
+executing /vagrant/datatransform/qPatientProcedureNote.js
+Running /vagrant/datatransform/qPatientProcedureNote.js Limit:  limit 0, 10000000 Range:  { from: '2018-05-01 00:00', to: '2018-05-31 23:59' }
+912 ' Records Found' ' Copying to mongodb... Goodluck!'
+/vagrant/datatransform/qPatientProcedureNote.js completed succesfuly 912  records
+ction qPatientProcedureNote returns true
+executing /vagrant/datatransform/qPatientRegimens.js
+Running /vagrant/datatransform/qPatientRegimens.js Limit:  limit 0, 10000000 Range:  { from: '2018-05-01 00:00', to: '2018-05-31 23:59' }
+26997 ' Records Found' ' Copying to mongodb... Goodluck!'
+/vagrant/datatransform/qPatientRegimens.js completed succesfuly 26997  records
+ction qPatientRegimens returns true
+executing /vagrant/datatransform/qPatientScan.js
+Running /vagrant/datatransform/qPatientScan.js Limit:  limit 0, 10000000 Range:  { from: '2018-05-01 00:00', to: '2018-05-31 23:59' }
+1915 ' Records Found' ' Copying to mongodb... Goodluck!'
+/vagrant/datatransform/qPatientScan.js completed succesfuly 1915  records
+ction qPatientScan returns true
+executing /vagrant/datatransform/qPatientVisitNotes.js
+Running /vagrant/datatransform/qPatientVisitNotes.js Limit:  limit 0, 10000000 Range:  { from: '2018-05-01 00:00', to: '2018-05-31 23:59' }
+98606 ' Records Found' ' Copying to mongodb... Goodluck!'
+/vagrant/datatransform/qPatientVisitNotes.js completed succesfuly 98606  records
+ction qPatientVisitNotes returns true
+executing /vagrant/datatransform/qProcedureNursingTask.js
+Running /vagrant/datatransform/qProcedureNursingTask.js Limit:  limit 0, 10000000 Range:  { from: '2018-05-01 00:00', to: '2018-05-31 23:59' }
+19 ' Records Found' ' Copying to mongodb... Goodluck!'
+/vagrant/datatransform/qProcedureNursingTask.js completed succesfuly 19  records
+ction qProcedureNursingTask returns true
+executing /vagrant/datatransform/qVitalSigns.js
+Running /vagrant/datatransform/qVitalSigns.js Limit:  limit 0, 10000000 Range:  { from: '2018-05-01 00:00', to: '2018-05-31 23:59' }
+37733 ' Records Found' ' Copying to mongodb... Goodluck!'
+/vagrant/datatransform/qVitalSigns.js completed succesfuly 37733  records
+ction qVitalSigns returns true
+executing /vagrant/datatransform/qLab.js
+Running /vagrant/datatransform/qLab.js Limit:  limit 0, 10000000 Range:  { from: '2018-06-01 00:00', to: '2018-06-31 23:59' }
+153840 ' Records Found' ' Copying to mongodb... Goodluck!'
+/vagrant/datatransform/qLab.js completed succesfuly 153840  records
+ction qLab returns true
+executing /vagrant/datatransform/qPatientDiagnosis.js
+Running /vagrant/datatransform/qPatientDiagnosis.js Limit:  limit 0, 10000000 Range:  { from: '2018-06-01 00:00', to: '2018-06-31 23:59' }
+9675 ' Records Found' ' Copying to mongodb... Goodluck!'
+/vagrant/datatransform/qPatientDiagnosis.js completed succesfuly 9675  records
+ction qPatientDiagnosis returns true
+executing /vagrant/datatransform/qPatientProcedureNote.js
+Running /vagrant/datatransform/qPatientProcedureNote.js Limit:  limit 0, 10000000 Range:  { from: '2018-06-01 00:00', to: '2018-06-31 23:59' }
+705 ' Records Found' ' Copying to mongodb... Goodluck!'
+/vagrant/datatransform/qPatientProcedureNote.js completed succesfuly 705  records
+ction qPatientProcedureNote returns true
+executing /vagrant/datatransform/qPatientRegimens.js
+Running /vagrant/datatransform/qPatientRegimens.js Limit:  limit 0, 10000000 Range:  { from: '2018-06-01 00:00', to: '2018-06-31 23:59' }
+27512 ' Records Found' ' Copying to mongodb... Goodluck!'
+/vagrant/datatransform/qPatientRegimens.js completed succesfuly 27512  records
+ction qPatientRegimens returns true
+executing /vagrant/datatransform/qPatientScan.js
+Running /vagrant/datatransform/qPatientScan.js Limit:  limit 0, 10000000 Range:  { from: '2018-06-01 00:00', to: '2018-06-31 23:59' }
+1631 ' Records Found' ' Copying to mongodb... Goodluck!'
+/vagrant/datatransform/qPatientScan.js completed succesfuly 1631  records
+ction qPatientScan returns true
+executing /vagrant/datatransform/qPatientVisitNotes.js
+Running /vagrant/datatransform/qPatientVisitNotes.js Limit:  limit 0, 10000000 Range:  { from: '2018-06-01 00:00', to: '2018-06-31 23:59' }
+97175 ' Records Found' ' Copying to mongodb... Goodluck!'
+/vagrant/datatransform/qPatientVisitNotes.js completed succesfuly 97175  records
+ction qPatientVisitNotes returns true
+executing /vagrant/datatransform/qProcedureNursingTask.js
+Running /vagrant/datatransform/qProcedureNursingTask.js Limit:  limit 0, 10000000 Range:  { from: '2018-06-01 00:00', to: '2018-06-31 23:59' }
+0 ' Records Found' ' Copying to mongodb... Goodluck!'
+Nothing to copy
+ction qProcedureNursingTask returns true
+executing /vagrant/datatransform/qVitalSigns.js
+Running /vagrant/datatransform/qVitalSigns.js Limit:  limit 0, 10000000 Range:  { from: '2018-06-01 00:00', to: '2018-06-31 23:59' }
+37989 ' Records Found' ' Copying to mongodb... Goodluck!'
+/vagrant/datatransform/qVitalSigns.js completed succesfuly 37989  records
+ction qVitalSigns returns true
+All 48 tasks complete { err: null } { result: 
+   [ true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true ] }
