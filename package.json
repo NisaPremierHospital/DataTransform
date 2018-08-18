@@ -1,0 +1,14 @@
+{
+  "name": "datatrabsfer",
+  "version": "0.0.0",
+  "description": "Nisa Premier Hostpital Transfer Data From mysql to mongo",
+  "main": "server.js",
+  "repository": "",
+  "author": "Retnan Daser <retnan@logicaladdress.com>",
+  "dependencies": {
+    "async": "^0.2.10",
+    "mongodb": "^3.1.3",
+    "mysql": "^2.16.0",
+    "mysql2": "^1.5.3"
+  }
+}

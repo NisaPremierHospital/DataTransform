@@ -1,0 +1,60 @@
+SELECT 
+patient_ID AS emr_id, 
+date_of_entry AS patient_diagnoses_date_of_entry, 
+`diag-type` AS patient_diagnoses_diag_type, 
+encounter_id, active AS patient_diagnoses_active, 
+severity AS patient_diagnoses_severity, 
+diagnosisNote AS patient_diagnoses_diagnosisNote, 
+diagnosis AS patient_diagnoses_diagnosis, 
+_status AS patient_diagnoses_status, 
+diagnoses.id AS diagnoses_id, diagnoses.code AS diagnoses_code, 
+diagnoses.type AS diagnoses_type, diagnoses.case AS diagnoses_case, 
+diagnoses.parent_id AS diagnoses_parent_id, 
+diagnoses.oi AS diagnoses_oi
+FROM  patient_diagnoses
+LEFT JOIN diagnoses AS diagnoses ON  diagnoses.id = patient_diagnoses.diagnosis 
+WHERE patient_ID = 2820
+LIMIT 2;
+
+
+VS
+
+
+SELECT 
+patient_ID AS emr_id, 
+date_of_entry AS patient_diagnoses_date_of_entry, 
+`diag-type` AS patient_diagnoses_diag_type, 
+encounter_id, active AS patient_diagnoses_active, 
+severity AS patient_diagnoses_severity, 
+diagnosisNote AS patient_diagnoses_diagnosisNote, 
+diagnosis AS patient_diagnoses_diagnosis, 
+_status AS patient_diagnoses_status, 
+diagnoses.id AS diagnoses_id, diagnoses.code AS diagnoses_code, 
+diagnoses.type AS diagnoses_type, diagnoses.case AS diagnoses_case
+FROM  patient_diagnoses
+LEFT JOIN diagnoses_full AS diagnoses ON  diagnoses.id = patient_diagnoses.diagnosis 
+WHERE patient_ID = 2820
+LIMIT 2;
+
+
+The first query is more legit, Confirmation below with PatientVisit Query
+
+
+
+
+
+SELECT 
+patient_ID AS emr_id, 
+date_of_entry AS patient_diagnoses_date_of_entry, 
+encounter_id, active AS patient_diagnoses_active, 
+diagnosisNote AS patient_diagnoses_diagnosisNote, 
+diagnosis AS patient_diagnoses_diagnosis, 
+_status AS patient_diagnoses_status, 
+diagnoses.id AS diagnoses_id, diagnoses.code AS diagnoses_code, 
+diagnoses.type AS diagnoses_type, diagnoses.case AS diagnoses_case, 
+diagnoses.parent_id AS diagnoses_parent_id, 
+diagnoses.oi AS diagnoses_oi
+FROM  patient_diagnoses
+LEFT JOIN diagnoses AS diagnoses ON  diagnoses.id = patient_diagnoses.diagnosis 
+WHERE patient_ID = 23171
+LIMIT 2;

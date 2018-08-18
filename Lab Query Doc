@@ -1,0 +1,107 @@
+Query from Result Value
+
+SELECT 
+lab_template_data.label AS lab_template_data_label, 
+lab_result_data.value AS lab_result_data_value, 
+lab_template_data.lab_method_id AS lab_template_data_lab_method_id, 
+lab_template_data.reference AS lab_template_data_reference, 
+lab_template_data.lab_template_id AS lab_template_data_lab_template_id, 
+lab_result.id AS lab_result_id,
+lab_result.lab_template_id AS lab_template_id, 
+lab_result.patient_lab_id AS lab_result_patient_lab_id, 
+lab_result.approved AS lab_result_approved, 
+lab_result.abnormal_lab_value AS lab_result_abnormal_lab_value,
+lab_result.approved_by AS lab_result_approved_by,
+lab_result.approved_date AS lab_result_approved_date,
+patient_labs.patient_id AS lab__patient_labs_patient_id,
+patient_labs.test_id AS lab__patient_labs_test_id
+FROM lab_result_data 
+LEFT JOIN lab_template_data ON lab_template_data.id  = lab_result_data.lab_template_data_id
+LEFT JOIN lab_result ON lab_result.id = lab_result_data.lab_result_id
+LEFT JOIN patient_labs ON patient_labs.id = lab_result.patient_lab_id 
+WHERE patient_labs.patient_id = 2820 AND
+lab_result.approved_date BETWEEN '2018-01-01 05:08' AND '2018-01-02 23:59'
+LIMIT 20;
+
+
+
+Base Table:
+lab_result_data
+
+mysql> describe lab_result_data;
++----------------------+--------------+------+-----+---------+-------+
+| Field                | Type         | Null | Key | Default | Extra |
++----------------------+--------------+------+-----+---------+-------+
+| lab_result_id        | int(11)      | NO   | PRI | NULL    |       |
+| lab_template_data_id | int(11)      | NO   | PRI | NULL    |       |
+| value                | varchar(255) | NO   |     | NULL    |       |
++----------------------+--------------+------+-----+---------+-------+
+
+
+mysql> describe lab_template_data;
++-----------------+--------------+------+-----+---------+----------------+
+| Field           | Type         | Null | Key | Default | Extra          |
++-----------------+--------------+------+-----+---------+----------------+
+| id              | int(11)      | NO   | PRI | NULL    | auto_increment |
+| lab_template_id | int(11)      | NO   | MUL | NULL    |                |
+| label           | varchar(32)  | NO   |     | NULL    |                |
+| lab_method_id   | int(11)      | YES  |     | NULL    |                |
+| reference       | varchar(128) | NO   |     | NULL    |                |
++-----------------+--------------+------+-----+---------+----------------+
+
+mysql> describe lab_result;
++--------------------+-------------+------+-----+---------+----------------+
+| Field              | Type        | Null | Key | Default | Extra          |
++--------------------+-------------+------+-----+---------+----------------+
+| id                 | int(11)     | NO   | PRI | NULL    | auto_increment |
+| lab_template_id    | int(11)     | NO   | MUL | NULL    |                |
+| patient_lab_id     | int(11)     | NO   | MUL | NULL    |                |
+| abnormal_lab_value | tinyint(1)  | NO   |     | 0       |                |
+| approved           | tinyint(1)  | NO   |     | 0       |                |
+| approved_by        | varchar(15) | YES  |     | NULL    |                |
+| approved_date      | datetime    | YES  |     | NULL    |                |
++--------------------+-------------+------+-----+---------+----------------+
+
+mysql> describe patient_labs;
++-----------------------+---------------------------+------+-----+---------+----------------+
+| Field                 | Type                      | Null | Key | Default | Extra          |
++-----------------------+---------------------------+------+-----+---------+----------------+
+| id                    | int(11)                   | NO   | PRI | NULL    | auto_increment |
+| patient_id            | int(11)                   | YES  |     | NULL    |                |
+| test_id               | int(11)                   | YES  |     | NULL    |                |
+| lab_group_id          | varchar(50)               | NO   | MUL | NULL    |                |
+| performed_by          | varchar(11)               | YES  |     | NULL    |                |
+| test_notes            | text                      | YES  |     | NULL    |                |
+| test_specimen_ids     | varchar(30)               | YES  |     | NULL    |                |
+| test_date             | datetime                  | YES  |     | NULL    |                |
+| specimen_collected_by | varchar(15)               | YES  |     | NULL    |                |
+| specimen_notes        | varchar(50)               | YES  |     | NULL    |                |
+| specimen_date         | datetime                  | YES  |     | NULL    |                |
+| received              | tinyint(1)                | NO   |     | 0       |                |
+| specimen_received_by  | int(10) unsigned zerofill | YES  |     | NULL    |                |
+| _status               | enum('open','cancelled')  | NO   |     | open    |                |
+| bill_line_id          | varchar(100)              | YES  |     | NULL    |                |
++-----------------------+---------------------------+------+-----+---------+----------------+
+15 rows in set (0.00 sec)
+
+
+SELECT
+lab_template_data.label AS lab_template_data_label, 
+lab_result_data.value AS lab_result_data_value, 
+lab_template_data.lab_template_id AS lab_template_data_lab_template_id,
+lab_result.id AS lab_result_id, 
+lab_result.lab_template_id AS lab_template__id, 
+lab_result.patient_lab_id AS lab_result_patient_lab_id, 
+lab_result.approved AS lab_result_approved, 
+lab_result.abnormal_lab_value AS lab_result_abnormal_lab_value,
+lab_result.approved_date AS lab_approved_date,
+patient_labs.patient_id AS lab_patient_labs_patient_id,
+patient_labs.patient_id AS emr_id,
+patient_labs.test_id AS lab_patient_labs_test_id
+FROM lab_result_data 
+LEFT JOIN lab_template_data ON lab_template_data.id  = lab_result_data.lab_template_data_id
+LEFT JOIN lab_result ON lab_result.id = lab_result_data.lab_result_id
+LEFT JOIN patient_labs ON patient_labs.id = lab_result.patient_lab_id 
+WHERE patient_labs.patient_id = 2820 AND
+lab_result.approved_date BETWEEN '2018-01-01 05:08' AND '2018-01-02 23:59'
+LIMIT 5;
