@@ -51,6 +51,7 @@ async function qPatientRegimens({daterange}) {
       patient_regimens.refill_off AS regimen_refill_off, \
       service_centre.name AS service_center, \
       CONCAT(staff_directory.firstname, ' ', staff_directory.lastname) AS regimen_requested_by,
+      patient_regimens.when AS creation_date,
       "pharmacy" AS report_type,
       ${patientFields} \
       FROM patient_regimens \

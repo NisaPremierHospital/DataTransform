@@ -28,6 +28,7 @@ async function qVitalSigns({daterange}) {
       vital.min_val AS vital_sign_min_val, 
       hospital_id, encounter_id, 
       read_date AS vital_sign_read_date,
+      vital_sign.read_date AS creation_date,
       "vital sign" AS report_type,
       ${patientFields}
         FROM vital_sign

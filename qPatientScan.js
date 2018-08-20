@@ -27,6 +27,7 @@ async function qPatientScan({daterange}) {
       patient_scan.cancel_date AS radio_cancel_date,
       patient_scan.encounter_id AS encounter_id,
       service_centre.name AS service_centre,
+      patient_scan.request_date AS creation_date,
       "imaging" AS report_type,
       ${patientFields}
       FROM patient_scan

@@ -40,6 +40,7 @@ async function qPatientDiagnosis({daterange}) {
       diagnoses.type AS diagnoses_type, diagnoses.case AS diagnoses_case, 
       diagnoses.parent_id AS diagnoses_parent_id, 
       diagnoses.oi AS diagnoses_oi,
+      patient_diagnoses.date_of_entry AS creation_date,
       "diagnosis" AS report_type,
       ${patientFields}
       FROM  patient_diagnoses

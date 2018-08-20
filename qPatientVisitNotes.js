@@ -26,6 +26,7 @@ async function qPatientVisitNotes({daterange}) {
       patient_visit_notes.reason AS consultation_reason,
       patient_visit_notes.encounter_id AS encounter_id,
       CONCAT(staff_directory.firstname, ' ', staff_directory.lastname) AS consultation_doctors_name,
+      patient_visit_notes.date_of_entry AS creation_date,
       "consultation" AS report_type,
       ${patientFields}
       FROM patient_visit_notes

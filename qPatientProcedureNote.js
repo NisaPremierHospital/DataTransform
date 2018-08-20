@@ -45,6 +45,7 @@ async function qPatientProcedureNote({daterange}) {
     patient_procedure_note.note_type AS patient_procedure_note_type,
     patient_procedure.request_date AS patient_procedure_request_date,
     patient_procedure._status AS patient_procedure_status,
+    patient_procedure.request_date AS creation_date,
     "procedure note" AS report_type,
     ${patientFields}
     FROM

@@ -39,6 +39,7 @@ async function qLab({daterange}) {
   console.log("executing", __filename);
   const [rows, fields] = await connection.execute(
     `SELECT 
+    patient_labs.patient_id AS emr_id,
     lab_template_data.label AS lab_template_data_label, 
     lab_result_data.value AS lab_result_data_value, 
     lab_template_data.lab_method_id AS lab_template_data_lab_method_id, 
@@ -59,6 +60,7 @@ async function qLab({daterange}) {
     patient_labs.test_notes AS lab__patient_labs_test_notes,
     patient_labs._status AS lab__patient_labs_status,
     labtests_config.name AS labtests_config_name,
+    patient_labs.specimen_date AS creation_date,
     "lab" AS report_type,
     ${patientFields}
     FROM lab_result_data

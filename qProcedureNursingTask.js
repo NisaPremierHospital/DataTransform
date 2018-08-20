@@ -44,6 +44,7 @@ async function qProcedureNursingTask({daterange}) {
       nursing_service.service_name AS patient_procedure_nursing_service,
       patient_procedure.request_date AS patient_procedure_request_date,
       patient_procedure._status AS patient_procedure_status,
+      patient_procedure.request_date AS creation_date,
       "procedure nursing task" AS report_type,
       ${patientFields}
       FROM
