@@ -2,10 +2,13 @@
 
 README
 
-from CLI: mongo nisa_main mquery.js
+from CLI: 
 
-mongoexport  -h localhost:27017 -d nisa_main --collection dpvisits --type=csv --out dpvisits.csv --fields "emr_id,visit_counts"
-
+1. Adjust the date range
+2. mongo nisa_main mquery.js
+3. export collection to csv
+    - mongoexport  -h localhost:27017 -d nisa_main --collection dpvisits --type=csv --out dpvisits.csv --fields "emr_id,visit_counts"
+4. Manually drop collection
 */
 
 var cursor = db.nisa_collection.aggregate([
