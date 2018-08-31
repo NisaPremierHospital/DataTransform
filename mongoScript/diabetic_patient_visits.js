@@ -19,6 +19,7 @@ var cursor = db.nisa_collection.aggregate([
 ]);
 
 if (cursor && cursor.hasNext()) {
+    // print('emr_id, visit_counts'); // uncomment to do IO Redirect
     while ( cursor.hasNext() ) {
         var item = cursor.next();
         db.dpvisits.insert({emr_id: item._id, visit_counts: item.count});
