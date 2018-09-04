@@ -1,0 +1,39 @@
+select 
+patient_visit_notes.patient_ID, 
+date_of_entry, encounter_id, 
+specialization_id, department_id, 
+initiator_id, start_date, follow_up, 
+claimed, open, referral_id from patient_visit_notes 
+left join encounter on encounter.id = patient_visit_notes.encounter_id AND patient_visit_notes.patient_ID = encounter.patient_ID  where encounter_id is not null limit 1;
+
+
+
+SELECT
+encounter.patient_id,
+encounter.specialization_id AS encounter_specialization_id, 
+staff_specialization.billing_code AS specialization_billing_code,
+staff_specialization.staff_type AS specialization_staff_type,
+encounter.department_id AS encounter_department_id, 
+departments.name AS department_title,
+cost_centre.name AS cost_centre_name,
+cost_centre.description AS cost_centre_description,
+cost_centre.analytical_code AS cost_centre_analytical_code,
+encounter.initiator_id AS encounter_initiator_id, 
+encounter.start_date AS encounter_start_date, 
+encounter.follow_up AS encounter_follow_up, 
+encounter.claimed AS encounter_claimed, 
+encounter.open AS encounter_open, 
+encounter.signed_by AS encounter_signed_by,
+encounter.signed_on AS encounter_signed_on,
+encounter.triaged_on AS encounter_triaged_on,
+encounter.triaged_by AS encounter_triaged_by,
+encounter.scheme_id As encounter_scheme_id,
+encounter.canceled AS encounter_canceled, 
+encounter.bill_line_id AS encounter_bill_line_id,
+encounter.referral_id AS encounter_referral_id 
+FROM encounter 
+JOIN departments ON departments.id = encounter.department_id
+JOIN cost_centre ON cost_centre.id = departments.cost_centre_id
+JOIN staff_specialization ON staff_specialization.id = encounter.specialization_id
+LIMIT 3;
+
